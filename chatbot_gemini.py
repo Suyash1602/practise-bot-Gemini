@@ -15,7 +15,7 @@ class ChatbotGemini:
         # 1. Initialize the client
         self.client = genai.Client(api_key=self.api_key)
 
-    def ask(self, user_input: str) -> str:
+    def ask(self, user_input):
         """
         Generates content from the model based on user input.
         """
